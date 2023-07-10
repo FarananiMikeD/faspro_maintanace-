@@ -1,0 +1,48 @@
+{
+    "name": "Faspro24",
+    "version": "1.0.0",
+    "description": "this is a property management application",
+    "main": "index.js",
+    "engines": {
+        "node": "16.14.2"
+    },
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js",
+        "start:prod": "NODE_ENV=production nodemon index.js",
+        "debug": "ndb index.js"
+    },
+    "keywords": [],
+    "author": "Chadrack kyungu",
+    "license": "ISC",
+    "dependencies": {
+        "@google-cloud/storage": "^6.10.1",
+        "@sendgrid/mail": "^7.7.0",
+        "bcryptjs": "^2.4.3",
+        "compression": "^1.7.4",
+        "cookie-parser": "^1.4.6",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.2",
+        "express": "^4.18.1",
+        "express-mongo-sanitize": "^2.2.0",
+        "express-rate-limit": "^6.6.0",
+        "firebase": "^9.22.1",
+        "firebase-admin": "^11.9.0",
+        "helmet": "^6.0.0",
+        "joi": "^17.6.0",
+        "jsonwebtoken": "^9.0.0",
+        "moment": "^2.29.4",
+        "mongoose": "^6.6.1",
+        "morgan": "^1.10.0",
+        "multer": "^1.4.5-lts.1",
+        "nanoid": "^4.0.1",
+        "nodemailer": "^6.9.2",
+        "nodemon": "^2.0.20",
+        "sharp": "^0.31.0",
+        "socket.io": "^4.5.4",
+        "stripe": "^11.9.1",
+        "winston": "^3.8.2",
+        "xss-clean": "^0.1.1",
+        "zxcvbn": "^4.4.2"
+    }
+}
